@@ -1,0 +1,8 @@
+Flask>=3.0,<4
+gunicorn>=22.0; platform_system != "Windows"
+waitress>=3.0; platform_system == "Windows"
+joblib>=1.3
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.5,<2
+scipy>=1.11
